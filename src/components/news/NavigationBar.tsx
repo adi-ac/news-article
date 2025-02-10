@@ -1,4 +1,6 @@
+
 import React from "react";
+import { Save } from "lucide-react";
 
 export const NavigationBar: React.FC = () => {
   return (
@@ -12,7 +14,9 @@ export const NavigationBar: React.FC = () => {
         />
       </div>
       <div className="self-stretch flex items-center gap-2 text-sm text-[color(display-p3_0.1608_0.1608_0.1608)] font-normal whitespace-nowrap leading-6 my-auto">
-        <button className="bg-white border-neutral-100 border self-stretch flex min-h-9 gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid" />
+        <button className="bg-white border-neutral-100 border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid">
+          <Save size={20} color="#292929" />
+        </button>
         <button className="bg-white border-neutral-100 border self-stretch flex min-h-9 gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid" />
         <button className="self-stretch bg-white border-neutral-100 border gap-2.5 overflow-hidden w-[83px] my-auto px-3 py-1.5 rounded-md border-solid">
           Subscribe
