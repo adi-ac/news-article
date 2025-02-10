@@ -1,4 +1,3 @@
-
 import React from "react";
 import { AudioPlayer } from "./AudioPlayer";
 import { ArticleImage } from "./ArticleImage";
@@ -51,7 +50,7 @@ export const ArticleContent: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex min-w-[375px] flex-col overflow-hidden items-stretch text-base text-[rgba(41,41,41,1)] leading-[30px] flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full max-md:px-5">
+      <div className="flex min-w-[375px] flex-col overflow-hidden items-stretch text-base text-[rgba(41,41,41,1)] leading-[30px] flex-1 shrink basis-[0%] max-w-[528px] pt-6 pb-12 px-6 max-md:max-w-full max-md:px-5">
         <div className="max-md:max-w-full space-y-8">
           <p>
             It's a tale as old as time: boy meets girl, boy falls in love with
@@ -174,4 +173,3 @@ export const ArticleContent: React.FC = () => {
     </div>
   );
 };
-
