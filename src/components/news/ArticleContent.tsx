@@ -1,4 +1,3 @@
-
 import React from "react";
 import { AudioPlayer } from "./AudioPlayer";
 import { ArticleImage } from "./ArticleImage";
@@ -59,7 +58,7 @@ export const ArticleContent: React.FC = () => {
             <span style={{ fontStyle: "italic" }}>Companion</span> isn't exactly
             the typical take on the classic sci-fi horror story. Instead, Drew
             Hancock's cleverly constructed sci-fi horror movie is a fun takedown
-            of the Al cautionary tale we know so well. And in the process, it may
+            of the AI cautionary tale we know so well. And in the process, it may
             have given us the most sneakily feminist social horror movie this side
             of Gone Girl.
           </p>
