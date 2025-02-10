@@ -53,7 +53,7 @@ export const ArticleContent: React.FC = () => {
 
       <div className="flex min-w-[375px] flex-col overflow-hidden items-stretch text-base text-[rgba(41,41,41,1)] leading-[30px] flex-1 shrink basis-[0%] max-w-[528px] pt-6 pb-12 px-6 max-md:max-w-full max-md:px-5">
         <div className="max-md:max-w-full space-y-8">
-          <p>
+          <p className="font-serif">
             It's a tale as old as time: boy meets girl, boy falls in love with
             girl, girl turns out to be a killer robot. Except{" "}
             <span style={{ fontStyle: "italic" }}>Companion</span> isn't exactly
@@ -64,7 +64,7 @@ export const ArticleContent: React.FC = () => {
             of Gone Girl.
           </p>
 
-          <p>
+          <p className="font-serif">
             Iris (Sophie Thatcher) knows one thing: she loves Josh (Jack Quaid)
             with all of her heart. The sweetly affable young woman is so deeply in
             love with him that she's willing to make the journey out to a remote
@@ -76,7 +76,7 @@ export const ArticleContent: React.FC = () => {
             nature that she was never even aware of.
           </p>
 
-          <p>
+          <p className="font-serif">
             Written and directed by Hancock in his feature directorial debut,{" "}
             <span style={{ fontStyle: "italic" }}>Companion</span> gets a lot of
             mileage out of the fact that it's produced by Barbarian director Zach
@@ -92,7 +92,7 @@ export const ArticleContent: React.FC = () => {
             commentary into an otherwise straightforward horror flick.
           </p>
 
-          <p>
+          <p className="font-serif">
             The reason it all works, aside from Hancock's admirably deft script,
             is because of Sophie Thatcher's wonderfully malleable performance as
             Iris. Right off the bat, we sense that something is off with Iris —
@@ -115,7 +115,7 @@ export const ArticleContent: React.FC = () => {
         />
 
         <div className="mt-6 space-y-8 max-md:max-w-full">
-          <p>
+          <p className="font-serif">
             Just as good as Thatcher, and another crucial reason that{" "}
             <span style={{ fontStyle: "italic" }}>Companion</span> pulls off its
             tonal hat trick, is Jack Quaid. In another movie, Quaid's Josh
@@ -127,7 +127,7 @@ export const ArticleContent: React.FC = () => {
             Josh.
           </p>
 
-          <p>
+          <p className="font-serif">
             It's a deceptively simple subversion that is embedded in Hancock's
             script, which not only threads the needle with its audience's
             sympathies but also walks the fine line between comedy and horror. But{" "}
@@ -151,7 +151,7 @@ export const ArticleContent: React.FC = () => {
         />
 
         <div className="mt-6 space-y-8 max-md:max-w-full">
-          <p>
+          <p className="font-serif">
             Despite its subversive approach to a well-worn horror genre,{" "}
             <span style={{ fontStyle: "italic" }}>Companion</span> isn't all that
             revolutionary. Once{" "}
@@ -165,7 +165,7 @@ export const ArticleContent: React.FC = () => {
             a way that feels weirdly prescient... and maybe a little too timely.
           </p>
 
-          <p>
+          <p className="font-serif">
             <span style={{ fontStyle: "italic" }}>Companion</span> opens in
             theaters on January 31.
           </p>
@@ -174,4 +174,3 @@ export const ArticleContent: React.FC = () => {
     </div>
   );
 };
-
