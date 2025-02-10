@@ -23,7 +23,7 @@ export const ArticleContent: React.FC = () => {
         <AudioPlayer />
 
         <div className="w-full mt-6 max-md:max-w-full">
-          <div className="text-[rgba(41,41,41,1)] text-xs leading-[20px] max-md:max-w-full">
+          <div className="text-[rgba(41,41,41,1)] text-xs leading-[16px] max-md:max-w-full">
             <span
               style={{
                 fontFamily:
