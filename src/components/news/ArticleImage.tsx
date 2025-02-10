@@ -1,3 +1,4 @@
+
 import React from "react";
 
 interface ArticleImageProps {
@@ -21,7 +22,7 @@ export const ArticleImage: React.FC<ArticleImageProps> = ({
       />
       {caption && (
         <figcaption
-          className="mt-3 max-md:max-w-full"
+          className="mt-3 max-md:max-w-full font-serif"
           dangerouslySetInnerHTML={{ __html: caption }}
         />
       )}
