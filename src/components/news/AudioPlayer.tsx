@@ -9,7 +9,7 @@ export const AudioPlayer: React.FC = () => {
         className="bg-white border-neutral-200 border self-stretch flex min-h-7 gap-2.5 w-7 h-7 my-auto py-1 rounded-[28px] border-solid items-center justify-center"
       >
         <span 
-          className="material-symbols-rounded text-[#292929]"
+          className="material-symbols-outlined text-[18px]"
           style={{
             fontVariationSettings: "'FILL' 1, 'wght' 300, 'GRAD' 0, 'opsz' 20"
           }}
@@ -26,4 +26,3 @@ export const AudioPlayer: React.FC = () => {
     </div>
   );
 };
-
