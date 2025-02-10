@@ -17,7 +17,14 @@ export const NavigationBar: React.FC = () => {
           <span className="material-symbols-outlined">bookmark</span>
         </button>
         <button className="bg-white border-neutral-100 border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid">
-          <span className="material-symbols-outlined">share_windows</span>
+          <span 
+            className="material-symbols-outlined"
+            style={{
+              fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20"
+            }}
+          >
+            share_windows
+          </span>
         </button>
         <button className="self-stretch bg-white border-neutral-100 border gap-2.5 overflow-hidden w-[83px] my-auto px-3 py-1.5 rounded-md border-solid">
           Subscribe
