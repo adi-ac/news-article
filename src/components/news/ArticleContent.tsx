@@ -6,7 +6,7 @@ import { ArticleImage } from "./ArticleImage";
 export const ArticleContent: React.FC = () => {
   return (
     <div className="flex min-w-[375px] w-full max-w-[1056px] font-normal justify-center items-start flex-wrap max-md:max-w-full h-screen">
-      <div className="flex min-w-[375px] flex-col overflow-hidden items-stretch flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full max-md:px-5">
+      <div className="flex min-w-[375px] flex-col overflow-hidden items-stretch flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full">
         <header>
           <h1 className="text-[rgba(41,41,41,1)] text-2xl leading-[34px] font-serif font-normal max-md:max-w-full">
             The Wildest Sci-Fi Thriller Of The Year Flips The Killer Robot Movie
@@ -51,7 +51,7 @@ export const ArticleContent: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex min-w-[375px] flex-col overflow-y-auto md:h-[calc(100vh-2rem)] items-stretch text-base text-[rgba(41,41,41,1)] leading-[30px] flex-1 shrink basis-[0%] max-w-[528px] pt-6 pb-12 px-6 max-md:max-w-full max-md:px-5 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+      <div className="flex min-w-[375px] flex-col overflow-y-auto md:h-[calc(100vh-2rem)] items-stretch text-base text-[rgba(41,41,41,1)] leading-[30px] flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
         <div className="max-md:max-w-full space-y-8">
           <p className="font-serif">
             It's a tale as old as time: boy meets girl, boy falls in love with
@@ -110,8 +110,8 @@ export const ArticleContent: React.FC = () => {
 
         <ArticleImage
           src="https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/656fa1e34e409118b39289ed9a1842dffbacade1d9767e973418c44e821e11af?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/656fa1e34e409118b39289ed9a1842dffbacade1d9767e973418c44e821e11af?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/656fa1e34e409118b39289ed9a1842dffbacade1d9767e973418c44e821e11af?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/656fa1e34e409118b39289ed9a1842dffbacade1d9767e973418c44e821e11af?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/656fa1e34e409118b39289ed9a1842dffbacade1d9767e973418c44e821e11af?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/656fa1e34e409118b39289ed9a1842dffbacade1d9767e973418c44e821e11af?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/656fa1e34e409118b39289ed9a1842dffbacade1d9767e973418c44e821e11af?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/656fa1e34e409118b39289ed9a1842dffbacade1d9767e973418c44e821e11af?placeholderIfAbsent=true"
-          aspectRatio="2.34"
-          caption="Sophie Thatcher's slightly uncanny, vulnerable performance is crux of <span style='font-style: italic;'>Companion's</span> success"
+          aspectRatio="1.78"
+          caption="Jack Quaid, and his typecast as an affable good guy, is a large part of why <span style='font-style: italic;'>Companion</span> works"
         />
 
         <div className="mt-6 space-y-8 max-md:max-w-full">
@@ -147,10 +147,10 @@ export const ArticleContent: React.FC = () => {
         <ArticleImage
           src="https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/287c763ba190f868204071a5c4f0369fe82310a9d9335e323faff4910848470b?placeholderIfAbsent=true&width=100 100w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/287c763ba190f868204071a5c4f0369fe82310a9d9335e323faff4910848470b?placeholderIfAbsent=true&width=200 200w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/287c763ba190f868204071a5c4f0369fe82310a9d9335e323faff4910848470b?placeholderIfAbsent=true&width=400 400w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/287c763ba190f868204071a5c4f0369fe82310a9d9335e323faff4910848470b?placeholderIfAbsent=true&width=800 800w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/287c763ba190f868204071a5c4f0369fe82310a9d9335e323faff4910848470b?placeholderIfAbsent=true&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/287c763ba190f868204071a5c4f0369fe82310a9d9335e323faff4910848470b?placeholderIfAbsent=true&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/287c763ba190f868204071a5c4f0369fe82310a9d9335e323faff4910848470b?placeholderIfAbsent=true&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/287c763ba190f868204071a5c4f0369fe82310a9d9335e323faff4910848470b?placeholderIfAbsent=true"
           aspectRatio="1.78"
-          caption="Jack Quaid, and his typecast as an affable good guy, is a large part of why <span style='font-style: italic;'>Companion</span> works"
+          caption="Sophie Thatcher's slightly uncanny, vulnerable performance is crux of <span style='font-style: italic;'>Companion's</span> success"
         />
 
-        <div className="mt-6 space-y-8 max-md:max-w-full">
+        <div className="max-md:max-w-full">
           <p className="font-serif">
             Despite its subversive approach to a well-worn horror genre,{" "}
             <span style={{ fontStyle: "italic" }}>Companion</span> isn't all that
@@ -174,3 +174,4 @@ export const ArticleContent: React.FC = () => {
     </div>
   );
 };
+
