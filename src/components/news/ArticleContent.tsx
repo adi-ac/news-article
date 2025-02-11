@@ -1,3 +1,4 @@
+
 import React from "react";
 import { AudioPlayer } from "./AudioPlayer";
 import { ArticleImage } from "./ArticleImage";
@@ -163,13 +164,9 @@ export const ArticleContent: React.FC = () => {
             thriller that's smarter than it looks, and flirts with pop feminism in
             a way that feels weirdly prescient... and maybe a little too timely.
           </p>
-
-          <p className="font-serif">
-            <span style={{ fontStyle: "italic" }}>Companion</span> opens in
-            theaters on January 31.
-          </p>
         </div>
       </div>
     </div>
   );
 };
+
