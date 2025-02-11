@@ -35,10 +35,10 @@ export const NavigationBar: React.FC = () => {
             <span 
               className="material-symbols-outlined text-[20.5px] text-[#292929] dark:text-[#F5F5F5]"
               style={{
-                fontVariationSettings: "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24"
+                fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20"
               }}
             >
-              flare
+              {theme === 'dark' ? 'light_mode' : 'dark_mode'}
             </span>
           </button>
           <button className="bg-background border-[#F5F5F5] dark:border-border border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414]">
