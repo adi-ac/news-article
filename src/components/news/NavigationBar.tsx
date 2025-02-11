@@ -2,13 +2,19 @@
 import React from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Separator } from "@/components/ui/separator";
+import { useTheme } from "next-themes";
 
 export const NavigationBar: React.FC = () => {
   const isMobile = useIsMobile();
+  const { setTheme, theme } = useTheme();
+  
+  const toggleTheme = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
   
   return (
     <div className={`${isMobile ? 'fixed top-0 left-0 z-50 w-full' : ''}`}>
-      <nav className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-[#FFFFFF]">
+      <nav className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-background">
         <div className="self-stretch flex items-center gap-1.5 overflow-hidden justify-center w-[21px] my-auto py-2 rounded-md">
           <img
             loading="lazy"
@@ -17,18 +23,21 @@ export const NavigationBar: React.FC = () => {
             alt="Logo"
           />
         </div>
-        <div className="self-stretch flex items-center gap-2 text-sm text-[color(display-p3_0.1608_0.1608_0.1608)] font-normal whitespace-nowrap leading-6 my-auto">
-          <button className="bg-white border-neutral-100 border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid">
+        <div className="self-stretch flex items-center gap-2 text-sm text-foreground font-normal whitespace-nowrap leading-6 my-auto">
+          <button 
+            className="bg-background border-border border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid hover:bg-accent"
+            onClick={toggleTheme}
+          >
             <span 
               className="material-symbols-outlined text-[22px]"
               style={{
                 fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20"
               }}
             >
-              dark_mode
+              {theme === 'dark' ? 'light_mode' : 'dark_mode'}
             </span>
           </button>
-          <button className="bg-white border-neutral-100 border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid">
+          <button className="bg-background border-border border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid hover:bg-accent">
             <span 
               className="material-symbols-outlined text-[22px]"
               style={{
@@ -38,12 +47,13 @@ export const NavigationBar: React.FC = () => {
               share_windows
             </span>
           </button>
-          <button className="self-stretch bg-white border-neutral-100 border gap-2.5 overflow-hidden w-[83px] my-auto px-3 py-1.5 rounded-md border-solid">
+          <button className="self-stretch bg-background border-border border gap-2.5 overflow-hidden w-[83px] my-auto px-3 py-1.5 rounded-md border-solid hover:bg-accent">
             Subscribe
           </button>
         </div>
       </nav>
-      {isMobile && <Separator className="bg-[#F5F5F5]" />}
+      {isMobile && <Separator className="bg-border" />}
     </div>
   );
 };
+
