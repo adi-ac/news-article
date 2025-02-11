@@ -20,7 +20,7 @@ export const NavigationBar: React.FC = () => {
         <div className="self-stretch flex items-center gap-2 text-sm text-[color(display-p3_0.1608_0.1608_0.1608)] font-normal whitespace-nowrap leading-6 my-auto">
           <button className="bg-white border-neutral-100 border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid">
             <span 
-              className="material-symbols-outlined"
+              className="material-symbols-outlined text-[18px]"
               style={{
                 fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 16"
               }}
@@ -30,7 +30,7 @@ export const NavigationBar: React.FC = () => {
           </button>
           <button className="bg-white border-neutral-100 border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid">
             <span 
-              className="material-symbols-outlined"
+              className="material-symbols-outlined text-[18px]"
               style={{
                 fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 16"
               }}
