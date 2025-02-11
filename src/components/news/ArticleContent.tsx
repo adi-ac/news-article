@@ -48,7 +48,7 @@ export const ArticleContent: React.FC = () => {
               Hoai-Tran Bui
             </span>
           </div>
-          <div className="text-neutral-600 text-sm leading-loose max-md:max-w-full">
+          <div className="text-neutral-600 dark:text-[#A3A3A3] text-sm leading-loose max-md:max-w-full">
             Published Jan 30, 2025
           </div>
         </div>
