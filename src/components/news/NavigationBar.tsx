@@ -3,7 +3,7 @@ import React from "react";
 
 export const NavigationBar: React.FC = () => {
   return (
-    <nav className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-[#FFFFFF]">
+    <nav className="fixed top-0 z-50 flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-[#FFFFFF]">
       <div className="self-stretch flex items-center gap-1.5 overflow-hidden justify-center w-5 my-auto py-2 rounded-md">
         <img
           loading="lazy"
