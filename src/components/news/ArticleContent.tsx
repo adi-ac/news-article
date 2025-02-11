@@ -1,10 +1,14 @@
+
 import React from "react";
 import { AudioPlayer } from "./AudioPlayer";
 import { ArticleImage } from "./ArticleImage";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export const ArticleContent: React.FC = () => {
+  const isMobile = useIsMobile();
+  
   return (
-    <div className="flex min-w-[375px] w-full max-w-[1056px] font-normal justify-center items-start flex-wrap max-md:max-w-full">
+    <div className={`flex min-w-[375px] w-full max-w-[1056px] font-normal justify-center items-start flex-wrap max-md:max-w-full ${isMobile ? 'mt-[72px]' : ''}`}>
       <div className="flex min-w-[375px] flex-col items-stretch flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full max-md:px-5">
         <header>
           <h1 className="text-[rgba(41,41,41,1)] text-2xl leading-[34px] font-serif font-normal max-md:max-w-full">
@@ -171,3 +175,4 @@ export const ArticleContent: React.FC = () => {
     </div>
   );
 };
+
