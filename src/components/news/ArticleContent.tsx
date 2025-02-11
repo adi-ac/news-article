@@ -5,7 +5,7 @@ import { ArticleImage } from "./ArticleImage";
 export const ArticleContent: React.FC = () => {
   return (
     <div className="flex min-w-[375px] w-full max-w-[1056px] font-normal justify-center items-start flex-wrap max-md:max-w-full">
-      <div className="flex min-w-[375px] flex-col overflow-hidden items-stretch flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full max-md:px-5">
+      <div className="flex min-w-[375px] flex-col items-stretch flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full max-md:px-5">
         <header>
           <h1 className="text-[rgba(41,41,41,1)] text-2xl leading-[34px] font-serif font-normal max-md:max-w-full">
             The Wildest Sci-Fi Thriller Of The Year Flips The Killer Robot Movie
@@ -50,7 +50,7 @@ export const ArticleContent: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex min-w-[375px] flex-col items-stretch text-base text-[rgba(41,41,41,1)] leading-[30px] flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full max-md:px-5 md:h-[calc(100vh-2rem)] md:overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+      <div className="flex min-w-[375px] flex-col items-stretch text-base text-[rgba(41,41,41,1)] leading-[30px] flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full max-md:px-5 md:h-[calc(100vh-2rem)]">
         <div className="max-md:max-w-full space-y-8">
           <p className="font-serif">
             It's a tale as old as time: boy meets girl, boy falls in love with
