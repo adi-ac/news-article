@@ -9,11 +9,11 @@ export const NavigationBar: React.FC = () => {
   return (
     <div className={`${isMobile ? 'fixed top-0 left-0 z-50 w-full' : ''}`}>
       <nav className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-[#FFFFFF]">
-        <div className="self-stretch flex items-center gap-1.5 overflow-hidden justify-center w-[22px] my-auto py-2 rounded-md">
+        <div className="self-stretch flex items-center gap-1.5 overflow-hidden justify-center w-[21px] my-auto py-2 rounded-md">
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/e0b9ab42968c0778473ba92af1fdd4b5f6861349c97c6b9cc68881e9232dc29f?placeholderIfAbsent=true"
-            className="aspect-[1] object-contain w-[22px] self-stretch my-auto"
+            className="aspect-[1] object-contain w-[21px] self-stretch my-auto"
             alt="Logo"
           />
         </div>
