@@ -16,12 +16,16 @@ export const NavigationBar: React.FC = () => {
     <div className={`${isMobile ? 'fixed top-0 left-0 z-50 w-full' : ''}`}>
       <nav className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-background">
         <div className="self-stretch flex items-center gap-1.5 overflow-hidden justify-center w-[21px] my-auto py-2 rounded-md">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/e0b9ab42968c0778473ba92af1fdd4b5f6861349c97c6b9cc68881e9232dc29f?placeholderIfAbsent=true"
-            className="aspect-[1] object-contain w-[21px] self-stretch my-auto dark:invert dark:brightness-[0.97] dark:hue-rotate-180"
-            alt="Logo"
-          />
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className="dark:fill-[#F5F5F5] fill-foreground">
+            <path fillRule="evenodd" clipRule="evenodd" d="M9.25 7.5V0L10.75 6.55671e-08V7.5H9.25Z" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M9.25 20V12.5H10.75V20H9.25Z" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M11.2377 7.70198L16.541 2.39868L17.6017 3.45934L13.359 7.70198L11.2377 7.70198Z" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M2.39888 16.5408L7.70218 11.2375L8.76284 12.2982L3.45954 17.6015L2.39888 16.5408Z" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M13.3589 12.2981L17.6016 16.5408L16.5409 17.6014L11.2376 12.2981H13.3589Z" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M3.45943 2.39864L8.76273 7.70194L7.70207 8.7626L2.39877 3.4593L3.45943 2.39864Z" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M9.25 9.25L20 9.25V10.75L9.25 10.75V9.25Z" />
+            <path fillRule="evenodd" clipRule="evenodd" d="M1.31135e-07 9.25L7.5 9.25V10.75L0 10.75L1.31135e-07 9.25Z" />
+          </svg>
         </div>
         <div className="self-stretch flex items-center gap-2 text-sm text-foreground font-normal whitespace-nowrap leading-6 my-auto">
           <button 
