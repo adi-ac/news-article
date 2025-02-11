@@ -33,7 +33,7 @@ export const NavigationBar: React.FC = () => {
             onClick={toggleTheme}
           >
             <span 
-              className="material-symbols-outlined text-[20.5px]"
+              className="material-symbols-outlined text-[20.5px] text-[#292929] dark:text-[#F5F5F5]"
               style={{
                 fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20"
               }}
