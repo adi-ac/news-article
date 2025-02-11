@@ -56,7 +56,7 @@ export const NavigationBar: React.FC = () => {
           </button>
         </div>
       </nav>
-      {isMobile && <Separator className="bg-border" />}
+      {isMobile && <Separator className="bg-[#F5F5F5] dark:bg-border" />}
     </div>
   );
 };
