@@ -1,3 +1,4 @@
+
 import React from "react";
 import { AudioPlayer } from "./AudioPlayer";
 import { ArticleImage } from "./ArticleImage";
@@ -10,7 +11,7 @@ export const ArticleContent: React.FC = () => {
     <div className={`flex min-w-[375px] w-full max-w-[1056px] font-normal justify-center items-start flex-wrap max-md:max-w-full ${isMobile ? 'mt-[72px]' : ''}`}>
       <div className="flex min-w-[375px] flex-col items-stretch flex-1 shrink basis-[0%] max-w-[528px] pt-6 px-6 max-md:max-w-full max-md:px-5">
         <header>
-          <h1 className="text-[rgba(41,41,41,1)] text-2xl leading-[34px] font-serif font-normal max-md:max-w-full">
+          <h1 className="text-[rgba(41,41,41,1)] dark:text-[#F5F5F5] text-2xl leading-[34px] font-serif font-normal max-md:max-w-full">
             The Wildest Sci-Fi Thriller Of The Year Flips The Killer Robot Movie
             On Its Head
           </h1>
@@ -174,3 +175,4 @@ export const ArticleContent: React.FC = () => {
     </div>
   );
 };
+
