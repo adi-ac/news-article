@@ -33,9 +33,9 @@ export const NavigationBar: React.FC = () => {
             onClick={toggleTheme}
           >
             <span 
-              className={`material-symbols-outlined ${isMobile ? 'text-[20px]' : 'text-[20.5px]'}`}
+              className="material-symbols-outlined text-[20.5px]"
               style={{
-                fontVariationSettings: `'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' ${isMobile ? 18 : 22}`
+                fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20"
               }}
             >
               {theme === 'dark' ? 'light_mode' : 'dark_mode'}
@@ -45,7 +45,7 @@ export const NavigationBar: React.FC = () => {
             <span 
               className="material-symbols-outlined text-[20.5px]"
               style={{
-                fontVariationSettings: `'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' ${isMobile ? 20 : 22}`
+                fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 20"
               }}
             >
               share_windows
