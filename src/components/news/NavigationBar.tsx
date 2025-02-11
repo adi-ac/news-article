@@ -51,7 +51,7 @@ export const NavigationBar: React.FC = () => {
               share_windows
             </span>
           </button>
-          <button className="self-stretch bg-background border-[#F5F5F5] dark:border-border border gap-2.5 overflow-hidden w-[83px] my-auto px-3 py-1.5 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414]">
+          <button className="self-stretch bg-background border-[#F5F5F5] dark:border-border border gap-2.5 overflow-hidden w-[83px] my-auto px-3 py-1.5 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414] text-[#292929] dark:text-[#F5F5F5]">
             Subscribe
           </button>
         </div>
