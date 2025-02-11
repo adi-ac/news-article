@@ -1,9 +1,12 @@
 
 import React from "react";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 export const NavigationBar: React.FC = () => {
+  const isMobile = useIsMobile();
+  
   return (
-    <nav className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-[#FFFFFF]">
+    <nav className={`flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-[#FFFFFF] ${isMobile ? 'fixed top-0 left-0 z-50' : ''}`}>
       <div className="self-stretch flex items-center gap-1.5 overflow-hidden justify-center w-5 my-auto py-2 rounded-md">
         <img
           loading="lazy"
