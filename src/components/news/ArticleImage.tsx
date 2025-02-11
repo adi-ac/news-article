@@ -22,7 +22,7 @@ export const ArticleImage: React.FC<ArticleImageProps> = ({
       />
       {caption && (
         <figcaption
-          className="mt-3 max-md:max-w-full font-serif"
+          className="mt-3 max-md:max-w-full font-serif dark:text-[#A3A3A3]"
           dangerouslySetInnerHTML={{ __html: caption }}
         />
       )}
