@@ -16,7 +16,7 @@ export const NavigationBar: React.FC = () => {
     <div className={`${isMobile ? 'fixed top-0 left-0 z-50 w-full' : ''}`}>
       <nav className="flex w-full items-center gap-[40px_100px] justify-between flex-wrap px-6 py-5 max-md:max-w-full max-md:px-5 bg-background">
         <div className="self-stretch flex items-center gap-1.5 overflow-hidden justify-center w-[21px] my-auto py-2 rounded-md">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className="dark:fill-[#F5F5F5] fill-foreground">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" className="dark:fill-[#F5F5F5] fill-[#292929]">
             <path fillRule="evenodd" clipRule="evenodd" d="M9.25 7.5V0L10.75 6.55671e-08V7.5H9.25Z" />
             <path fillRule="evenodd" clipRule="evenodd" d="M9.25 20V12.5H10.75V20H9.25Z" />
             <path fillRule="evenodd" clipRule="evenodd" d="M11.2377 7.70198L16.541 2.39868L17.6017 3.45934L13.359 7.70198L11.2377 7.70198Z" />
