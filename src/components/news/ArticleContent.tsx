@@ -1,3 +1,4 @@
+
 import React from "react";
 import { AudioPlayer } from "./AudioPlayer";
 import { ArticleImage } from "./ArticleImage";
@@ -14,7 +15,7 @@ export const ArticleContent: React.FC = () => {
             The Wildest Sci-Fi Thriller Of The Year Flips The Killer Robot Movie
             On Its Head
           </h1>
-          <p className="text-neutral-600 text-[15px] leading-[25px] mt-2.5 max-md:max-w-full font-sans">
+          <p className="text-neutral-600 dark:text-[#A3A3A3] text-[15px] leading-[25px] mt-2.5 max-md:max-w-full font-sans">
             A lakeside getaway becomes a battleground for couples in this fast,
             furious and exceptionally fun horror-comedy
           </p>
