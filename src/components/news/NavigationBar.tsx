@@ -19,7 +19,7 @@ export const NavigationBar: React.FC = () => {
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/c6d391ea2e524e3cb5938c8c2bca34b1/e0b9ab42968c0778473ba92af1fdd4b5f6861349c97c6b9cc68881e9232dc29f?placeholderIfAbsent=true"
-            className="aspect-[1] object-contain w-[21px] self-stretch my-auto"
+            className="aspect-[1] object-contain w-[21px] self-stretch my-auto dark:invert dark:brightness-[0.97] dark:hue-rotate-180"
             alt="Logo"
           />
         </div>
@@ -56,4 +56,3 @@ export const NavigationBar: React.FC = () => {
     </div>
   );
 };
-
