@@ -9,7 +9,7 @@ export const NewsArticle: React.FC = () => {
       <div className="min-w-[375px] w-full max-w-[1056px] max-md:max-w-full">
         <NavigationBar />
         <div className="w-full max-md:max-w-full">
-          <div className="bg-neutral-100 dark:bg-[#292929] flex min-h-px w-full max-md:max-w-full" />
+          <div className="bg-[#F5F5F5] dark:bg-[#292929] flex min-h-px w-full max-md:max-w-full" />
         </div>
       </div>
       <ArticleContent />
