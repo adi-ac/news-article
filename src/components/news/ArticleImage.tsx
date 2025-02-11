@@ -10,7 +10,7 @@ interface ArticleImageProps {
 export const ArticleImage: React.FC<ArticleImageProps> = ({
   src,
   caption,
-  aspectRatio = "1.5",
+  aspectRatio = "1.78",
 }) => {
   return (
     <figure className="w-full text-[15px] text-neutral-600 leading-[25px] mt-6 pt-[5px] max-md:max-w-full">
