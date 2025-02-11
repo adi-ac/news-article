@@ -20,7 +20,7 @@ export const AudioPlayer: React.FC = () => {
       <div className="text-[rgba(41,41,41,1)] dark:text-neutral-200 self-stretch flex-1 shrink basis-[0%] my-auto">
         Listen to this article
       </div>
-      <div className="text-neutral-500 text-right self-stretch flex-1 shrink basis-[0%] my-auto">
+      <div className="text-neutral-500 dark:text-[#A3A3A3] text-right self-stretch flex-1 shrink basis-[0%] my-auto">
         8:08
       </div>
     </div>
