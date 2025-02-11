@@ -162,6 +162,9 @@ export const ArticleContent: React.FC = () => {
             barely more than horror-movie archetypes. But it's a fun little sci-fi
             thriller that's smarter than it looks, and flirts with pop feminism in
             a way that feels weirdly prescient... and maybe a little too timely.
+            <br />
+            <br />
+            <span style={{ fontStyle: "italic" }}>Companion</span> opens in theaters on January 31.
           </p>
         </div>
       </div>
