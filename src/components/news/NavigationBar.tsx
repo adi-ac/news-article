@@ -29,7 +29,7 @@ export const NavigationBar: React.FC = () => {
         </div>
         <div className="self-stretch flex items-center gap-2 text-sm text-foreground font-normal whitespace-nowrap leading-6 my-auto">
           <button 
-            className="bg-background border-border border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414]"
+            className="bg-background border-[#F5F5F5] dark:border-border border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414]"
             onClick={toggleTheme}
           >
             <span 
@@ -41,7 +41,7 @@ export const NavigationBar: React.FC = () => {
               {theme === 'dark' ? 'light_mode' : 'dark_mode'}
             </span>
           </button>
-          <button className="bg-background border-border border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414]">
+          <button className="bg-background border-[#F5F5F5] dark:border-border border self-stretch flex min-h-9 items-center justify-center gap-2.5 w-9 h-9 my-auto py-2 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414]">
             <span 
               className="material-symbols-outlined text-[22px]"
               style={{
@@ -51,7 +51,7 @@ export const NavigationBar: React.FC = () => {
               share_windows
             </span>
           </button>
-          <button className="self-stretch bg-background border-border border gap-2.5 overflow-hidden w-[83px] my-auto px-3 py-1.5 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414]">
+          <button className="self-stretch bg-background border-[#F5F5F5] dark:border-border border gap-2.5 overflow-hidden w-[83px] my-auto px-3 py-1.5 rounded-md border-solid hover:bg-[#FAFAFA] dark:hover:bg-[#141414]">
             Subscribe
           </button>
         </div>
