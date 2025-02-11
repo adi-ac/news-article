@@ -35,7 +35,7 @@ export const NavigationBar: React.FC = () => {
             <span 
               className="material-symbols-outlined text-[20.5px]"
               style={{
-                fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 22"
+                fontVariationSettings: `'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' ${isMobile ? 20 : 22}`
               }}
             >
               {theme === 'dark' ? 'light_mode' : 'dark_mode'}
@@ -45,7 +45,7 @@ export const NavigationBar: React.FC = () => {
             <span 
               className="material-symbols-outlined text-[20.5px]"
               style={{
-                fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 22"
+                fontVariationSettings: `'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' ${isMobile ? 20 : 22}`
               }}
             >
               share_windows
